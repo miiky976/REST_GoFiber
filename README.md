@@ -295,7 +295,7 @@ El intercambio de recursos de origen cruzado (CORS, por sus siglas en inglés), 
 ## Como solucionarlo?
 En fiber es tan sencillo como agregar la librería de fiber dedicada a CORS, con:
 ```bash
-go get -u 
+go get -u github.com/gofiber/fiber/v2/middleware/cors
 ```
 Y por ultimo al archivo main.go agregar la instruccion...
 ```go
